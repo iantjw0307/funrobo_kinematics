@@ -1,4 +1,4 @@
-name: funrobo_test
+name: funrobo
 channels:
   - conda-forge
 dependencies:
