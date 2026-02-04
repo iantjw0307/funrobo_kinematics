@@ -149,7 +149,10 @@ def rotm_to_euler(R: np.ndarray) -> tuple:
 
 def dh_to_matrix(dh_params: list) -> np.ndarray:
     """
-    Convert Denavit–Hartenberg (DH) parameters to a homogeneous transform.
+    Convert Denavit–Hartenberg (DH) parameters to a homogeneous transform using the classic
+    DH convention.
+
+    Reference: https://en.wikipedia.org/wiki/Denavit%E2%80%93Hartenberg_parameters
 
     Args:
         dh_params: DH parameters [theta, d, a, alpha], where:
