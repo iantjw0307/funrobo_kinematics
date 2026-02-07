@@ -83,8 +83,7 @@ class TwoDOFRobot(TwoDOFRobotTemplate):
 
     def jacobian(self, joint_values: list):
         """
-        Returns the Jacobian matrix for the robot. If joint_values is not provided, 
-        the function will use the object's internal joint_values attribute.
+        Returns the Jacobian matrix for the robot. 
 
         Args:
             joint_values (list): The joint angles for the robot.
